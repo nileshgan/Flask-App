@@ -17,6 +17,7 @@ pipeline {
                 echo 'Deploying Flask app...'
                 sh 'python3 /home/ubuntu/python-project/app.py &'
                 sh 'sudo systemctl restart nginx'
+                sh 'sudo systemctl restart python-project'
             }
         }
 
