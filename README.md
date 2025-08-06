@@ -1,4 +1,4 @@
-This is Python based simple lask app
+This is Python based simple lask app.
 
 To run or create the python based flask app click on the below URL
 
